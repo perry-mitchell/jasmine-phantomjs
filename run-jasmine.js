@@ -66,7 +66,7 @@ if (system.args.length !== 2) {
 }
 
 // Preliminary output
-console.log("--[ Begin console output ]--------------------------------------------")
+console.log("--[ Begin console output ]--------------------------------------------");
 
 var page = require('webpage').create();
 
@@ -88,7 +88,7 @@ page.open(system.args[1], function(status) {
         }, function() {
 
             var exitCode = page.evaluate(function() {
-                console.log("--[ End console output ]----------------------------------------------")
+                console.log("--[ End console output ]----------------------------------------------");
                 console.log('');
 
                 // Load jasmine version info
@@ -113,6 +113,7 @@ page.open(system.args[1], function(status) {
                     }
                 }
                 console.log(testSummaryOut);
+                console.log("");
 
                 //
                 // Display functions
