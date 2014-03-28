@@ -21,4 +21,4 @@ Credits
 -------
 These scripts were cobbled together from others like the PhantomJS Jasmine script and some personal attempts and neatening up the output.
 
-Where applicable, I'll link the appropriate original sources here shortly.
+The initial Jasmine runner (run-jasmine.js) was rebuilt from the example provided by Ariya Hidayat [here](https://github.com/ariya/phantomjs/blob/master/examples/run-jasmine.js).
